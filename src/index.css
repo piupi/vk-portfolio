@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* trying something  */
+
+body {
+  background-color: #fabe58;
+  padding: 0;
+  /* margin: 0; */
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  width: 40%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  border-radius: 4px;
+  box-shadow: 0 0 20px 10px rgba(223, 144, 7, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #f58b6b;
+  letter-spacing: 3px;
+}
+
+.title {
+  font-size: 20px;
+  /* position: absolute;
+  top: 140px; */
+  font-family: "Work Sans", sans-serif;
+  color: #555555;
+  
+}
+
+.line {
+  background-color: #949594;
+  height: 1.5px;
+  width: 52px;
+  margin: 0 auto;
+}
+
+.bio {
+  width: 80%;
+  text-align: center;
+}
+
+/* another color i might use #f55b3a */
+/* and another one #e44d10 */
+/* yet another one #ff7665 */
+/* might also change to green&red wintery color palette instead */
