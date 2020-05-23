@@ -32,6 +32,10 @@ body {
   border: 1.5px solid #E0DDD6;
 }
 
+/* in card try using grid instead
+  display: grid;
+  justify-items: center; */
+
 .about {
   height: 95%;
   width: 95%;
@@ -98,6 +102,7 @@ button:hover {
   border: 1.5px solid #E0DDD6;
   position: relative;
   top: 2px;
+  color: #555555;
 }
 
 button.current {
