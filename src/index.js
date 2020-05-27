@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Contact from './pages/Contact';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -13,7 +14,6 @@ function Hi() {
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Hi />
   </React.StrictMode>,
   document.getElementById('root')
 );

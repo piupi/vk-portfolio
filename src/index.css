@@ -98,18 +98,15 @@ button {
 }
 
 button:hover {
-  background-color: white;
-  border: 1.5px solid #E0DDD6;
-  position: relative;
-  top: 2px;
-  color: #555555;
+  background-color: #FBAE46;
+  border: 1.5px solid #FBAE46;
 }
 
-button.current {
+/* button.current {
   background-color: white;
   border: 1.5px solid #E0DDD6;
   color: #555555;
-}
+} */
 
 .photo {
   height: 120px;
@@ -123,7 +120,37 @@ button.current {
 button:focus {
   outline: none;
 }
+
+button:active {
+  background-color: white;
+  border: 1.5px solid #E0DDD6;
+  position: relative;
+  top: 2px;
+  color: #555555;
+}
 /* another color i might use #f55b3a */
 /* and another one #e44d10 */
 /* yet another one #ff7665 */
 /* might also change to green&red wintery color palette instead */
+
+i {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 94px;
+}
+
+.social-links {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+/* * {box-sizing: border-box;} */
