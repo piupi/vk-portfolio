@@ -31,7 +31,7 @@ html {
   height: 400px;
   margin: 0 auto;
   margin-top: 100px;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -94,20 +94,20 @@ nav {
 }
 
 button {
-  background-color: #fabe58;
-  border: 1.5px solid #fabe58;
+  background-color: #3a4337;
+  border: 1.5px solid #3a4337;
   text-transform: uppercase;
   height: 30px;
   width: 100px;
-  border-radius: 25px;
+  border-radius: 2px;
   font-family: "Work Sans", sans-serif;
   color: white;
   letter-spacing: 2px;
 }
 
 button:hover {
-  background-color: #FBAE46;
-  border: 1.5px solid #FBAE46;
+  background-color: #b2b4b1;
+  border: 1.5px solid #b2b4b1;
 }
 
 /* button.current {
@@ -139,7 +139,9 @@ button:active {
 /* another color i might use #f55b3a */
 /* and another one #e44d10 */
 /* yet another one #ff7665 */
+/* #fabe58 */
 /* might also change to green&red wintery color palette instead */
+/* #aaa9a7; */
 
 i {
   text-decoration: none;
@@ -162,3 +164,26 @@ i {
 }
 
 /* * {box-sizing: border-box;} */
+
+.top-nav {
+  backdrop-filter: saturate(180%) blur(20px); 
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 50px;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.top-nav-items {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
