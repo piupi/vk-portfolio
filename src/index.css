@@ -188,3 +188,8 @@ i {
   align-items: center;
   margin-top: 40px;
 }
+
+iframe {
+  border: none;
+  border-radius: 4px;
+}

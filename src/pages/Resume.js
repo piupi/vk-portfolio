@@ -27,7 +27,7 @@ const Resume = () => {
                 </div>
             </nav>
             <div className="resume">
-            <iframe src="https://drive.google.com/file/d/1C_go3lJxisGfqw7Rn1J4ahrreMmrpzKh/preview" width="640" height="600"></iframe>
+            <iframe src="https://drive.google.com/file/d/1C_go3lJxisGfqw7Rn1J4ahrreMmrpzKh/preview" width="750" height="600"></iframe>
             </div>
             <Document file="public/resumemay2020.pdf">
                 <Page pageNumber={1} />
