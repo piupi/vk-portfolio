@@ -31,7 +31,6 @@ const HomePage = () => {
 
     // Nvm I want to divide it into header + nav and the only part that changes is middle
     );
-
 }
 
 export default HomePage;
