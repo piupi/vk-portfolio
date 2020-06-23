@@ -7,7 +7,7 @@ const HomePage = () => {
             <div className="about">
                 <img className="photo" src="pfp3.jpg" alt="frog" />
                 <div className="name">Vanessa K.</div>
-                <div className="title">Title Text Blahblah</div>
+                <div className="title">QA Tester</div>
                 <span className="line"></span>
                 <div className="bio">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum finibus euismod. Nam sollicitudin dui lectus, eget accumsan nibh auctor sed. Suspendisse eget molestie odio.
@@ -15,7 +15,7 @@ const HomePage = () => {
             </div>
         <nav>
             <Link to="/">
-                <button className="current">about</button>
+                <button className="current">home</button>
             </Link>
             <Link to="/projects">
                 <button>projects</button>

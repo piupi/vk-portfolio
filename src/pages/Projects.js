@@ -8,7 +8,7 @@ const Projects = () => {
             <nav className="top-nav">
                 <div className="top-nav-items">
                     <Link to="/">
-                        <button className="current">about</button>
+                        <button className="current">home</button>
                     </Link>
                     <Link to="/projects">
                         <button>projects</button>
