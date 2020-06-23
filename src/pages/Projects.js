@@ -39,7 +39,17 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project">
-                    <p>IM A PROJECT TOO</p>
+                <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb">
+                        <img src="https://i.imgur.com/lIdg650.jpg" alt="sup?" />
+                    </a>
+                    <div className="project-text">
+                        <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb">Ruby Automation</a>
+                        <p id="ruby-project">Ruby script that logs into LinkedIn, finds a specific person, and messages them.</p>
+                        <div className="labels">
+                            <div>ruby</div>
+                            <div>watir webdriver</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
