@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import Link and Redirect 
 
 //Pages
 import Contact from "./pages/Contact";

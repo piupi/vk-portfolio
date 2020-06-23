@@ -2,14 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Contact from './pages/Contact';
 import * as serviceWorker from './serviceWorker';
 
-
-//trying something
-function Hi() {
-  return <div>Hiiiii</div>;
-}
 
 ReactDOM.render(
   <React.StrictMode>
