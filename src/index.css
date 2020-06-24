@@ -196,7 +196,6 @@ iframe {
 }
 
 .projects-box {
-  
   width: 700px;
   display: flex;
   margin: 0 auto;
@@ -251,7 +250,7 @@ iframe {
 
 .labels {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   font-size: 12px;
   flex-wrap: wrap;
   word-wrap: break-word;
@@ -268,4 +267,24 @@ iframe {
 
 #ruby-project {
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    background-color: red;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content: space-around;
+    width: 50%;
+    height: 10%;
+    margin-top: 20px;
+  }
+  .projects-box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+  }
 }
