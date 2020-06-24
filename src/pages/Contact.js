@@ -9,8 +9,6 @@ const Contact = () => {
             <div className="name">Vanessa K.</div>
             <div className="title">QA Tester</div>
             <span className="line"></span>
-
-
             <div className="contact-info">
                 <p>vanessakratohvil@gmail.com</p>
                 <div className="social-links">

@@ -83,6 +83,7 @@ html {
   text-align: center;
   font-size: 16px;
   line-height: 24px;
+  height: 94px;
 }
 
 nav {
@@ -270,9 +271,6 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
-  button {
-    background-color: red;
-  }
   nav {
     display: grid;
     grid-gap: 8px;
@@ -282,23 +280,35 @@ iframe {
     /* height: 10%; */
     margin-top: 2px;
     margin-bottom: 20px;
+    padding-bottom: 30px;
   }
+
+  button {
+    width: 150px;
+  }
+
   .projects-box {
     display: grid;
     grid-gap: 20px;
     grid-template-rows: 1fr;
     width: 300px;
   }
+  
   .card {
     width: 370px;
-    height: 500px;
+    height: 450px;
+    /* margin-top: 70px; */
   }
   
   div.about {
     /* height: 300px; */
   }
 
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
   div.bio {
-    /* margin-top: 100px; */
+    margin-bottom: 30px;
   }
 }
