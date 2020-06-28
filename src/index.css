@@ -319,6 +319,9 @@ object {
     display: grid;
     margin: 0 auto;
     align-items: center;
+  }
+
+  button:hover {
     text-decoration: none;
   }
 
