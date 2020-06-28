@@ -274,6 +274,11 @@ object {
   display: none;
 }
 
+#pdf-error {
+  background-color: white;
+  border-radius: 4px;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     display: grid;
