@@ -355,4 +355,9 @@ object {
   iframe {
     display: none;
   }
+
+  body {
+  background: url(https://i.imgur.com/wfuJVn1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  }
 }
