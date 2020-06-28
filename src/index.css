@@ -340,6 +340,7 @@ object {
   object {
     display: block;
     width: 300px;
+    height: 350px;
   }
 
   iframe {
