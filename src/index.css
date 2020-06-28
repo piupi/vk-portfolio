@@ -319,6 +319,7 @@ object {
     display: grid;
     margin: 0 auto;
     align-items: center;
+    text-decoration: none;
   }
 
   .projects-box {
