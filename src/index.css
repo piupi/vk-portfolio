@@ -325,6 +325,10 @@ object {
     text-decoration: none;
   }
 
+  a:hover {
+    text-decoration: none;
+  }
+
   .projects-box {
     display: grid;
     grid-gap: 20px;
