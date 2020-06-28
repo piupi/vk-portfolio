@@ -10,7 +10,7 @@ const HomePage = () => {
                 <div className="title">QA Tester</div>
                 <span className="line"></span>
                 <div className="bio">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum finibus euismod. Nam sollicitudin dui lectus, eget accumsan nibh auctor sed. Suspendisse eget molestie odio.
+                I am a QA Tester and an aspiring Front-End Developer with a background in HTML, CSS, and JavaScript. As someone passionate about UI/UX, I am seeking to develop my skills in that area.
                 </div>
             </div>
         <nav>
