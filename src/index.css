@@ -277,6 +277,7 @@ object {
 #pdf-error {
   background-color: white;
   border-radius: 4px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 768px) {
