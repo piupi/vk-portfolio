@@ -306,9 +306,9 @@ object {
   
   .top-nav-items {
     /* background-color: red; */
-    width: 100%;
+    width: 80%;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 8px;
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     
@@ -316,6 +316,9 @@ object {
 
   button {
     width: 150px;
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
   }
 
   .projects-box {
