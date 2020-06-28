@@ -270,6 +270,10 @@ iframe {
   padding-bottom: 60px;
 }
 
+object {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     display: grid;
@@ -331,5 +335,14 @@ iframe {
 
   div.bio {
     margin-bottom: 30px;
+  }
+
+  object {
+    display: block;
+    width: 300px;
+  }
+
+  iframe {
+    display: none;
   }
 }
