@@ -23,11 +23,11 @@ const Projects = () => {
             </nav>
             <div className="projects-box">
                 <div className="project">
-                    <a href="https://careerkarma.com/discussions/projects/food-journal-519/">
+                    <a href="https://careerkarma.com/discussions/projects/food-journal-519/" target="_blank" rel="noopener noreferrer">
                         <img src="https://i.imgur.com/Khdt6cM.png" alt="oh.. hello" />
                     </a>
                     <div className="project-text">
-                        <a href="https://careerkarma.com/discussions/projects/food-journal-519/">Food Journal</a>
+                        <a href="https://careerkarma.com/discussions/projects/food-journal-519/" target="_blank" rel="noopener noreferrer">Food Journal</a>
                         <p>An alternative to typical calorie-tracking apps that focuses on logging meals with pictures.  Type the calories and take a picture, and the calorie total of the day will update.</p>
                         <div className="labels">
                             <div>javascript</div>
@@ -39,11 +39,11 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="project">
-                <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb">
+                <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb" target="_blank" rel="noopener noreferrer">
                         <img src="https://i.imgur.com/lIdg650.jpg" alt="sup?" />
                     </a>
                     <div className="project-text">
-                        <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb">Ruby Automation</a>
+                        <a href="https://github.com/piupi/automation-challenge/blob/master/linkedin.rb" target="_blank" rel="noopener noreferrer">Ruby Automation</a>
                         <p id="ruby-project">Ruby script that logs into LinkedIn, finds a specific person, and messages them.</p>
                         <div className="labels">
                             <div>ruby</div>
